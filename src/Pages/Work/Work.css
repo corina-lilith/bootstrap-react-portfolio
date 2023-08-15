@@ -1,0 +1,19 @@
+.work-item {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #284323;
+}
+
+.work-year {
+  font-weight: 700;
+  color: #284323;
+}
+
+.work-title {
+  font-weight: 500;
+  color: #284323;
+}
+
+.work-description {
+  color: #666;
+}

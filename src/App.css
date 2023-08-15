@@ -4,6 +4,15 @@
   min-height: 100vh;
 }
 
+h3 {
+  color: #284323;
+}
+
+p {
+  color: #666;
+  word-wrap: break-word;
+}
+
 .App {
   text-align: center;
 }

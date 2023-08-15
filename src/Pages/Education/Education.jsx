@@ -17,7 +17,7 @@ function EducationPage() {
           <Col>
             {/* Now you can use the educationList data */}
             {educationList.map((item) => (
-              <div key={item.id}>
+              <div key={item.id} style={{ marginBottom: "1rem" }}>
                 <h3>{item.year}</h3>
                 <p>{item.course1}</p>
                 <p>{item.course2}</p>
