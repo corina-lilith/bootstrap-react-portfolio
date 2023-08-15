@@ -2,6 +2,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Header.css";
+import { Image } from "react-bootstrap";
+import HomeIcon from "../../Images/icons/HomeIcon.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,11 +13,18 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Education</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
-            <Nav.Link href="#link">Work</Nav.Link>
+            <Link className="nav-link btn" to={"/home"}>
+              <Image
+                src={HomeIcon}
+                alt="Home icon to return home"
+                fluid
+                className="home-icon"
+              />
+            </Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/education">Education</Nav.Link>
+            <Nav.Link href="/projects/home">Projects</Nav.Link>
+            <Nav.Link href="/work">Work</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
