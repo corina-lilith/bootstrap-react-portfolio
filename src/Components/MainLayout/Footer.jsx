@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer mt-auto">
       <Container>
         <FooterIcons />
-        <p style={{ fontSize: "10px" }}>
+        <p style={{ fontSize: "12px" }}>
           &copy; {currentYear} Corina Pelichowski. All rights reserved.
         </p>
       </Container>

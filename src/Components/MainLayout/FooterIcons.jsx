@@ -4,32 +4,43 @@ import { Image } from "react-bootstrap";
 import InstagramIcon from "../../Images/icons/instagram.png";
 import FacebookIcon from "../../Images/icons/facebook.png";
 import LinkedInIcon from "../../Images/icons/linkedin.png";
-import { Link } from "react-router-dom";
 
 const FooterIcons = () => {
   return (
     <Container>
-      <Link to={"/"}>
+      <a
+        href="https://www.instagram.com/corlou33/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image
           src={InstagramIcon}
           alt="Home icon to return home"
           className="icon"
         />
-      </Link>
-      <Link to={"/"}>
+      </a>
+      <a
+        href="https://www.facebook.com/corina.louise.351/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image
           src={FacebookIcon}
           alt="Home icon to return home"
           className="icon"
         />
-      </Link>
-      <Link to={"/"}>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/corina-pelichowski-794889142/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image
           src={LinkedInIcon}
           alt="Home icon to return home"
           className="icon"
         />
-      </Link>
+      </a>
     </Container>
   );
 };
