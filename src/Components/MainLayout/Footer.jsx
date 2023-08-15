@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./Footer.css";
+import FooterIcons from "./FooterIcons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,7 +9,10 @@ const Footer = () => {
   return (
     <footer className="footer mt-auto">
       <Container>
-        <p>&copy; {currentYear} Corina Pelichowski. All rights reserved.</p>
+        <FooterIcons />
+        <p style={{ fontSize: "10px" }}>
+          &copy; {currentYear} Corina Pelichowski. All rights reserved.
+        </p>
       </Container>
     </footer>
   );

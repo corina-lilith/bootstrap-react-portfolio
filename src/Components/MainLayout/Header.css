@@ -3,7 +3,8 @@
   font-size: 26px;
 }
 
-.home-icon {
+.icon {
   max-height: 35px;
   max-width: 35px;
+  margin: 0.5rem;
 }

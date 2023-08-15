@@ -13,12 +13,12 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link className="nav-link btn" to={"/"}>
+            <Link to={"/"}>
               <Image
                 src={HomeIcon}
                 alt="Home icon to return home"
                 fluid
-                className="home-icon"
+                className="icon"
               />
             </Link>
             <Nav.Link href="/about">About</Nav.Link>
