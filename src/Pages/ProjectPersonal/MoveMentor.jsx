@@ -2,7 +2,7 @@ import Header from "../Components/MainLayout/Header";
 import Footer from "../Components/MainLayout/Footer";
 import "../App.css";
 
-function ProjectsHome() {
+function MoveMentor() {
   return (
     <div className="main-layout">
       <Header />
@@ -11,4 +11,4 @@ function ProjectsHome() {
   );
 }
 
-export default ProjectsHome;
+export default MoveMentor;

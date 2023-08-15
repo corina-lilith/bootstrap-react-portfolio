@@ -1,11 +1,11 @@
 import Header from "../Components/MainLayout/Header";
 import Footer from "../Components/MainLayout/Footer";
+import "../App.css";
 
 function AboutMe() {
   return (
-    <div className="App">
+    <div className="main-layout">
       <Header />
-
       <Footer />
     </div>
   );

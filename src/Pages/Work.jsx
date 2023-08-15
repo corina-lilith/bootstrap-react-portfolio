@@ -1,14 +1,14 @@
 import Header from "../Components/MainLayout/Header";
 import Footer from "../Components/MainLayout/Footer";
+import "../App.css";
 
-function AboutMe() {
+function Work() {
   return (
-    <div className="App">
+    <div className="main-layout">
       <Header />
-
       <Footer />
     </div>
   );
 }
 
-export default AboutMe;
+export default Work;
