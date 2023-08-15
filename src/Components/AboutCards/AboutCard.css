@@ -1,0 +1,17 @@
+.flip-button {
+  width: 120px;
+  padding: 2px;
+  font-size: 15px;
+  background: #e9ece9;
+  color: #284323;
+  font-weight: light;
+  border-radius: 5px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center;
+}
