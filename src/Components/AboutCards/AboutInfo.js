@@ -15,7 +15,7 @@ export const aboutList = [
   {
     id: 'pole',
     image: Pole,
-    altTag: 'me on a lyra',
+    altTag: 'me on a pole',
     infoImage: PoleText,
 
   },
