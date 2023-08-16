@@ -1,51 +1,57 @@
-import Pole from '../../Images/AboutMe/pole.png'
-import Lyra from '../../Images/AboutMe/lyra.png'
-import Knitting from '../../Images/AboutMe/knitting.png'
-import Polish from '../../Images/AboutMe/polish.png'
-import Mentor from '../../Images/AboutMe/mentoring.png'
-import Coding from '../../Images/AboutMe/coding.png'
+import Pole from '../../Images/AboutMe/pole.png';
+import PoleText from '../../Images/AboutMe/pole_text.png';
+import Lyra from '../../Images/AboutMe/lyra.png';
+import LyraText from '../../Images/AboutMe/lyra_text.png';
+import Knitting from '../../Images/AboutMe/knitting.png';
+import KnittingText from '../../Images/AboutMe/knitting_text.png';
+import Polish from '../../Images/AboutMe/polish.png';
+import PolishText from '../../Images/AboutMe/polish_text.png';
+import Mentor from '../../Images/AboutMe/mentoring.png';
+import MentorText from '../../Images/AboutMe/mentoring_text.png';
+import Coding from '../../Images/AboutMe/coding.png';
+import CodingText from '../../Images/AboutMe/coding_text.png';
 
 export const aboutList = [
   {
     id: 'pole',
     image: Pole,
     altTag: 'me on a lyra',
-    info: 'Once a week I go to Lyra class. It is important to have play-time and be creative. I am still scared of heights though.',
+    infoImage: PoleText,
 
   },
   {
     id: 'lyra',
     image: Lyra,
     altTag: 'me on a lyra',
-    info: 'Once a week I go to Lyra class. It is important to have play-time and be creative. I am still scared of heights though.',
+    infoImage: LyraText,
 
   },
   {
     id: 'knitting',
     image: Knitting,
-    altTag: 'me on a lyra',
-    info: 'Once a week I go to Lyra class. It is important to have play-time and be creative. I am still scared of heights though.',
+    altTag: 'two hands knitting a blue scarf',
+    infoImage: KnittingText,
 
   },
   {
     id: 'polish',
     image: Polish,
-    altTag: 'me on a lyra',
-    info: 'Once a week I go to Lyra class. It is important to have play-time and be creative. I am still scared of heights though.',
+    altTag: 'me speaking Polish',
+    infoImage: PolishText,
 
   },
   {
     id: 'mentor',
     image: Mentor,
-    altTag: 'me on a lyra',
-    info: 'Once a week I go to Lyra class. It is important to have play-time and be creative. I am still scared of heights though.',
+    altTag: 'me mentoring two guys',
+    infoImage: MentorText,
 
   },
   {
     id: 'coding',
     image: Coding,
-    altTag: 'me on a lyra',
-    info: 'Once a week I go to Lyra class. It is important to have play-time and be creative. I am still scared of heights though.',
+    altTag: 'my hands coding on a laptop',
+    infoImage: CodingText,
   },
 
 ]

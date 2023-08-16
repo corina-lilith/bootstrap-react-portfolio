@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import "./AboutCard.css";
-import Card from "react-bootstrap/Card";
 
 import { aboutList } from "./AboutInfo";
 
@@ -35,9 +34,13 @@ function AboutCard() {
           </div>
 
           <div className="about-card" onClick={() => handleImageClick(index)}>
-            <Card className="about-item">
-              <p className="about-info">{item.info}</p>
-            </Card>
+            <div className="about-item">
+              <img
+                src={item.infoImage}
+                alt={item.altTag}
+                style={{ margin: "1rem" }}
+              />
+            </div>
           </div>
         </ReactCardFlip>
       ))}
