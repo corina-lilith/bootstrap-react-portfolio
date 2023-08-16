@@ -19,8 +19,11 @@ const ProjectCardsData = [
 
 const Card = ({ title, image, route, altTag }) => {
   return (
-    <div className="card" style={{ margin: "15px", border: "none" }}>
-      <h4 style={{ marginLeft: "6rem" }}>{title}</h4>
+    <div
+      className="card"
+      style={{ margin: "15px", border: "none", marginTop: "6rem" }}
+    >
+      <h4 style={{ textAlign: "center" }}>{title}</h4>
       <Link className="nav-link btn" to={route}>
         <img
           src={image}
