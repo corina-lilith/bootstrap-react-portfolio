@@ -1,42 +1,43 @@
-import LitePages from "../../Images/ProfessionalProjectsHome/1_lp.png";
-import BidBarn from "../../Images/ProfessionalProjectsHome/2_bbn.png";
-import StayUpright from "../../Images/ProfessionalProjectsHome/3_su.png";
-import TwoSheds from "../../Images/ProfessionalProjectsHome/4_ts.png";
+import MoveMentor from "../../Images/PersonalProjectsHome/move_mentor.png";
+import PoleGuide from "../../Images/PersonalProjectsHome/pole_guide.png";
+import TarotReader from "../../Images/PersonalProjectsHome/tarot_reader.png";
+import Slownik from "../../Images/PersonalProjectsHome/slownik.png";
+import Portfolio from "../../Images/PersonalProjectsHome/portfolio.png";
 
 export const personalList = [
   {
     id: "movementor",
     business: 'Move Mentor',
-    image: LitePages,
+    image: MoveMentor,
     altTag: "Move Mentor Logo",
     techStack: "MongoDB, Express, Bootstrap React, NodeJS",
   },
   {
     id: "poleGuide",
     business: 'PoleGuide',
-    image: BidBarn,
+    image: PoleGuide,
     altTag: "PoleGuide Logo",
     techStack: "Illustrator, VueJS",
   },
   {
     id: "tarotReader",
     business: 'Tarot Reader',
-    image: StayUpright,
+    image: TarotReader,
     altTag: "StayUpright Logo",
     techStack: "Python",
   },
   {
     id: "slownik",
     business: 'Slownik',
-    image: TwoSheds,
+    image: Slownik,
     altTag: "Slownik Logo",
-    techStack: "Illustrator, VueJS",
+    techStack: "Illustrator, VueJS, Quasar",
   },
   {
     id: "portfolio",
     business: 'My Portfolio',
-    image: TwoSheds,
-    altTag: "Slownik Logo",
+    image: Portfolio,
+    altTag: "My portfolio Logo",
     techStack: "Bootstrap React",
   },
 ];
