@@ -5,8 +5,8 @@ import AboutMe from './Pages/About/AboutMe';
 import Education from './Pages/Education/Education';
 import ProjectsHome from './Pages/ProjectsHome';
 import Work from './Pages/Work/Work';
-// import ProjectsProfessional from './Pages/ProjectsProfessional';
-// import ProjectsPersonal from './Pages/ProjectsPersonal';
+import ProjectsProfessional from './Pages/ProjectProfessional/ProfessionalHome';
+import ProjectsPersonal from './Pages/ProjectPersonal/PersonalHome';
 
 
 const App = () => {
@@ -21,8 +21,8 @@ const App = () => {
           <Route path="/education" element={<Education />} />
           <Route path="/work" element={<Work />} />
           <Route path="/projects/home" element={<ProjectsHome />} />
-          {/* <Route path="/projects/professional" element={<ProjectsProfessional />} />
-          <Route path="/projects/personal" element={<ProjectsPersonal />} /> */}
+          <Route path="/projects/professional" element={<ProjectsProfessional />} />
+          <Route path="/projects/personal" element={<ProjectsPersonal />} />
         </Routes>
       </BrowserRouter>
     </div >

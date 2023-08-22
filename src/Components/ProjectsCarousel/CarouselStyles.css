@@ -1,0 +1,22 @@
+.carousel-container {
+  text-align: center;
+  margin-top: 6rem;
+  background-color: #e9ece9;
+}
+
+.carousel-container h4 {
+  color: #284323;
+  font-weight: 400;
+}
+
+.carousel-container .carousel-control-prev {
+  background-color: #284323;
+}
+
+.carousel-container .carousel-control-next {
+  background-color: #284323;
+}
+
+.carousel-container .carousel-indicators {
+  display: none;
+}

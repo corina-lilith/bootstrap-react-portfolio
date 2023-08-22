@@ -13,7 +13,7 @@ function HomePage() {
       <Container
         style={{
           textAlign: "center",
-          marginTop: "7rem",
+          marginTop: "5.5rem",
         }}
       >
         <Row>
@@ -27,6 +27,12 @@ function HomePage() {
             />
           </Col>
           <Col></Col>
+        </Row>
+        <Row style={{ marginTop: "1rem" }}>
+          <h3>Corina Pelichowski</h3>
+        </Row>
+        <Row>
+          <p>Combining form and function in creative ways</p>
         </Row>
       </Container>
       <Footer />

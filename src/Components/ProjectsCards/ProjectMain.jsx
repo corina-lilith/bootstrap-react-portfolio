@@ -6,13 +6,13 @@ const ProjectCardsData = [
   {
     title: "Professional Projects",
     image: Professional,
-    route: "/",
+    route: "/projects/professional",
     altTag: "Me dressed professionally",
   },
   {
     title: "Personal Projects",
     image: Personal,
-    route: "/",
+    route: "/projects/personal",
     altTag: "Me dressed casually",
   },
 ];
