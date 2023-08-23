@@ -5,10 +5,8 @@ import AboutMe from './Pages/About/AboutMe';
 import Education from './Pages/Education/Education';
 import ProjectsHome from './Pages/ProjectsHome';
 import Work from './Pages/Work/Work';
-import ProjectsProfessional from './Pages/ProjectProfessional/ProfessionalHome';
-import ProjectsPersonal from './Pages/ProjectPersonal/PersonalHome';
-import MoveMentor from './Pages/ProjectPersonal/MoveMentor';
-import Tarot from './Pages/ProjectPersonal/TarotReader';
+import ProjectsProfessional from './Pages/ProjectDetails/ProfessionalHome';
+import ProjectsPersonal from './Pages/ProjectDetails/PersonalHome';
 
 
 const App = () => {
@@ -25,8 +23,6 @@ const App = () => {
           <Route path="/projects/home" element={<ProjectsHome />} />
           <Route path="/projects/professional" element={<ProjectsProfessional />} />
           <Route path="/projects/personal" element={<ProjectsPersonal />} />
-          <Route path="/projects/personal/tarot" element={<Tarot />} />
-          <Route path="/projects/personal/movementor" element={<MoveMentor />} />
         </Routes>
       </BrowserRouter>
     </div >

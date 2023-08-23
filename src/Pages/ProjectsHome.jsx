@@ -4,11 +4,9 @@ import ProjectMain from "../Components/ProjectsCards/ProjectMain";
 
 function ProjectsHome() {
   return (
-    <div className="main-layout">
-      <Layout>
-        <ProjectMain />
-      </Layout>
-    </div>
+    <Layout>
+      <ProjectMain />
+    </Layout>
   );
 }
 
