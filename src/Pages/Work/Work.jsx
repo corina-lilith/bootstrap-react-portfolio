@@ -1,7 +1,5 @@
-import React from "react"; // Make sure to import React if you haven't already
-import Header from "../../Components/MainLayout/Header";
-import Footer from "../../Components/MainLayout/Footer";
-import "../../App.css";
+import React from "react";
+import Layout from "../../Components/MainLayout/Layout";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,8 +10,7 @@ import "./Work.css";
 
 function Work() {
   return (
-    <div className="main-layout">
-      <Header />
+    <Layout>
       <Container>
         <Row style={{ marginTop: "2rem" }}>
           <Col>
@@ -35,8 +32,7 @@ function Work() {
           </Col>
         </Row>
       </Container>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 

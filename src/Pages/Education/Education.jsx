@@ -1,7 +1,5 @@
-import React from "react"; // Make sure to import React if you haven't already
-import Header from "../../Components/MainLayout/Header";
-import Footer from "../../Components/MainLayout/Footer";
-import "../../App.css";
+import React from "react";
+import Layout from "../../Components/MainLayout/Layout";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -10,8 +8,7 @@ import { educationList } from "./EducationInfo";
 
 function EducationPage() {
   return (
-    <div className="main-layout">
-      <Header />
+    <Layout>
       <Container style={{ textAlign: "center" }}>
         <Row style={{ marginTop: "2rem" }}>
           <Col>
@@ -27,8 +24,7 @@ function EducationPage() {
           </Col>
         </Row>
       </Container>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 

@@ -1,14 +1,13 @@
-import Header from "../Components/MainLayout/Header";
-import Footer from "../Components/MainLayout/Footer";
-import "../App.css";
+import React from "react";
+import Layout from "../Components/MainLayout/Layout";
 import ProjectMain from "../Components/ProjectsCards/ProjectMain";
 
 function ProjectsHome() {
   return (
     <div className="main-layout">
-      <Header />
-      <ProjectMain />
-      <Footer />
+      <Layout>
+        <ProjectMain />
+      </Layout>
     </div>
   );
 }

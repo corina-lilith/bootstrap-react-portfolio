@@ -1,20 +1,16 @@
 import React from "react";
-import Header from "../../Components/MainLayout/Header";
-import Footer from "../../Components/MainLayout/Footer";
+import Layout from "../../Components/MainLayout/Layout";
 import ProjectCarousel from "../../Components/ProjectsCarousel/ProjectCarousel";
 
 import { personalList } from "../../Components/ProjectsCarousel/PersonalHomeData";
 
 function PersonalProjectsPage() {
   return (
-    <div className="main-layout">
-      <Header />
+    <Layout>
       <div className="carousel-container">
         <ProjectCarousel items={personalList} />
       </div>
-
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 

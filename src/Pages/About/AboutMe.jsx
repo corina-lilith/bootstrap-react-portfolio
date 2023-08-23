@@ -1,15 +1,11 @@
-import Header from "../../Components/MainLayout/Header";
-import Footer from "../../Components/MainLayout/Footer";
+import Layout from "../../Components/MainLayout/Layout";
 import AboutCard from "../../Components/AboutCards/AboutCard";
-import "../../App.css";
 
 function AboutMe() {
   return (
-    <div className="main-layout">
-      <Header />
+    <Layout>
       <AboutCard />
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 
