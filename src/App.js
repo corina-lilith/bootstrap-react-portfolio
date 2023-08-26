@@ -7,6 +7,7 @@ import ProjectsHome from './Pages/ProjectsHome';
 import Work from './Pages/Work/Work';
 import ProjectsProfessional from './Pages/ProjectDetails/ProfessionalHome';
 import ProjectsPersonal from './Pages/ProjectDetails/PersonalHome';
+import PersonalDetailsPage from './Pages/ProjectDetails/PersonalDetails';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/projects/home" element={<ProjectsHome />} />
           <Route path="/projects/professional" element={<ProjectsProfessional />} />
           <Route path="/projects/personal" element={<ProjectsPersonal />} />
+          <Route path="/projects/personal/:projectId" element={<PersonalDetailsPage />} />
         </Routes>
       </BrowserRouter>
     </div >

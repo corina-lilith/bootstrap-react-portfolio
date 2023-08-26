@@ -4,6 +4,8 @@ import TarotReader from "../../Images/PersonalProjectsHome/tarot_reader.png";
 import Slownik from "../../Images/PersonalProjectsHome/slownik.png";
 import Portfolio from "../../Images/PersonalProjectsHome/portfolio.png";
 
+
+
 export const personalList = [
   {
     id: "movementor",
@@ -27,7 +29,7 @@ export const personalList = [
     image: TarotReader,
     altTag: "Three Tarot cards",
     techStack: "Python",
-    link: '/projects/personal/tarot',
+    link: '/projects/personal/poleguide',
   },
   {
     id: "slownik",
@@ -43,6 +45,6 @@ export const personalList = [
     image: Portfolio,
     altTag: "My portfolio Logo",
     techStack: "Bootstrap React",
-    link: '/projects/personal/portfolio',
+    link: '/projects/personal/poleguide',
   },
 ];

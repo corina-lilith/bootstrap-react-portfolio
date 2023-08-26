@@ -8,7 +8,7 @@ function PersonalProjectsPage() {
   return (
     <Layout>
       <div className="carousel-container">
-        <ProjectCarousel items={personalList} />
+        <ProjectCarousel items={personalList} pageType="personal" />
       </div>
     </Layout>
   );
