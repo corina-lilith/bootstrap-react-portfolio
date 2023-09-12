@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import DetailsCard from "../../Components/ProjectsCarousel/DetailsCard";
 
 function PersonalDetailsPage() {
   const { projectId } = useParams(); // Get the projectId from the URL
@@ -19,7 +20,7 @@ function PersonalDetailsPage() {
 
   return (
     <Layout>
-      <Container style={{ textAlign: "center", wordWrap: "break-word" }}>
+      <Container>
         <Row>
           <Col>
             <h1>{projectData.title}</h1>
@@ -27,12 +28,13 @@ function PersonalDetailsPage() {
             <p>{projectData.brief}</p>
             <p>{projectData.feature1}</p>
             <p>{projectData.feature2}</p>
-            <p>{projectData.link}</p>
+            <a href={projectData.link}>{projectData.link}</a>
           </Col>
         </Row>
+        <Row>
+          <DetailsCard />
+        </Row>
       </Container>
-
-      {/* Render your images or other components here */}
     </Layout>
   );
 }
