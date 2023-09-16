@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { personalDetails } from "./PersonalDetailsData";
+import { personalImages } from "./PersonalDetailsImages";
 
 function DetailsCard() {
   return (
@@ -10,7 +10,7 @@ function DetailsCard() {
       <Col>
         <Card>
           <Card.Body>
-            {personalDetails.map((project, index) => (
+            {personalImages.map((project, index) => (
               <div key={project.projectId}>
                 {Array.isArray(project.images) &&
                   project.images.map((image, i) => (
