@@ -67,26 +67,32 @@ export const personalImages = [
     images: [
       {
         image: PoleGuide1,
+        description: 'Old app design',
         altTag: "Original home page designs",
       },
       {
         image: PoleGuide2,
+        description: 'New app design',
         altTag: "new home page designs",
       },
       {
         image: PoleGuide3,
+        description: 'Avatars with black outfits',
         altTag: "Avatars with black outfits",
       },
       {
         image: PoleGuide4,
+        description: 'Avatars with costumes',
         altTag: "Avatars with costumes",
       },
       {
         image: PoleGuide5,
+        description: 'Old logo',
         altTag: "Original Logo",
       },
       {
         image: PoleGuide6,
+        description: 'New logo',
         altTag: "New Logo",
       },
     ]

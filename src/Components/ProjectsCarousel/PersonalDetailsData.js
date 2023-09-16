@@ -15,8 +15,8 @@ export const personalDetails = [
     title: 'Pole Guide',
     techStack: 'VueJs, Illustrator',
     brief: 'Every pole studio has their own names for moves and there is no single source of truth. PoleGuide aims to be a dictionary where students and teachers can reference moves, add their favourites, and discover new ones.',
-    feature1: '',
-    feature2: '',
+    feature1: 'Once a user has logged in, they can view the moves which have been sorted into categories.',
+    feature2: 'Another feature is that a user can upload images of themselves doing a pole move and by tagging the original image; other users can view both.',
     link: '',
   },
   {

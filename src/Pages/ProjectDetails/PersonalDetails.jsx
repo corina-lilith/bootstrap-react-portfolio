@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import DetailsCard from "../../Components/ProjectsCarousel/DetailsCard";
+import { personalImages } from "../../Components/ProjectsCarousel/PersonalDetailsImages"; // Import the image data
 
 function PersonalDetailsPage() {
   const { projectId } = useParams(); // Get the projectId from the URL
@@ -17,6 +18,11 @@ function PersonalDetailsPage() {
   if (!projectData) {
     return <div>Project not found</div>;
   }
+
+  // Filter the image data based on the projectId
+  const projectImages = personalImages.find(
+    (project) => project.projectId === projectId
+  );
 
   return (
     <Layout>
@@ -32,7 +38,8 @@ function PersonalDetailsPage() {
           </Col>
         </Row>
         <Row>
-          <DetailsCard />
+          <DetailsCard projectImages={projectImages.images} />{" "}
+          {/* Pass the project-specific images */}
         </Row>
       </Container>
     </Layout>
