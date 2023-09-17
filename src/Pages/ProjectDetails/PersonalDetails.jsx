@@ -37,7 +37,7 @@ function PersonalDetailsPage() {
             <a href={projectData.link}>{projectData.link}</a>
           </Col>
         </Row>
-        <Row>
+        <Row style={{ marginTop: "3rem", marginBottom: "3rem" }}>
           <DetailsCard projectImages={projectImages.images} />{" "}
           {/* Pass the project-specific images */}
         </Row>

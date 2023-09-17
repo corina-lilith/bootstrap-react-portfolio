@@ -7,7 +7,7 @@ function DetailsCard({ projectImages }) {
     <div>
       <Row xs={1} md={2} className="g-4">
         {projectImages.map((image, index) => (
-          <Card key={index}>
+          <Card key={index} style={{ textAlign: "center", border: "none" }}>
             <p>{image.description}</p>
             <Card.Img src={image.image} alt={image.altTag} />
           </Card>

@@ -34,30 +34,37 @@ export const personalImages = [
     images: [
       {
         image: MoveMentor1,
+        description: 'Landing page with login/sign up options',
         altTag: "Landing page where user can pick a list of login/signup options",
       },
       {
         image: MoveMentor2,
+        description: 'Teacher view of lessons page',
         altTag: "Teacher view of lessons page",
       },
       {
         image: MoveMentor3,
+        description: 'Teacher view of moves listed into categories',
         altTag: "Teacher view of moves listed into categories",
       },
       {
         image: MoveMentor4,
+        description: 'Adding a move to a lesson/lessons',
         altTag: "Teacher view of adding move to a list of classes",
       },
       {
         image: MoveMentor5,
+        description: 'Student view of their lesson',
         altTag: "Student view of their lesson",
       },
       {
         image: MoveMentor6,
+        description: 'Student view of moves listed into categories',
         altTag: "Student view of moves listed into categories",
       },
       {
         image: MoveMentor7,
+        description: 'Student view of moves inside a category',
         altTag: "Student view of moves inside a category",
       },
     ]
@@ -102,22 +109,27 @@ export const personalImages = [
     images: [
       {
         image: Tarot1,
+        description: 'List of options to choose from',
         altTag: "Image of options to choose from",
       },
       {
         image: Tarot2,
+        description: 'Image of a Tarot reading',
         altTag: "Image of a Tarot reading",
       },
       {
         image: Tarot3,
+        description: 'User history of readings',
         altTag: "Image of the user's history of readings",
       },
       {
         image: Tarot4,
+        description: 'Next full moon',
         altTag: "Image of when the next full moon will occur",
       },
       {
         image: Tarot5,
+        description: 'Exiting the app',
         altTag: "Image of closing the app",
       },
     ]
@@ -127,14 +139,17 @@ export const personalImages = [
     images: [
       {
         image: Slownik1,
+        description: 'Home page of options to choose from ',
         altTag: "Home page of options to choose from",
       },
       {
         image: Slownik2,
+        description: 'Inside the food category',
         altTag: "Inside the food category",
       },
       {
         image: Slownik3,
+        description: 'Inside the herbs category',
         altTag: "Inside the herbs category",
       },
     ]
@@ -144,14 +159,17 @@ export const personalImages = [
     images: [
       {
         image: Porfolio1,
+        description: 'Home page of this portfolio',
         altTag: "Home page of this portfolio",
       },
       {
         image: Porfolio2,
+        description: 'About page of this portfolio',
         altTag: "About page of this portfolio",
       },
       {
         image: Porfolio3,
+        description: 'Education page of this portfolio',
         altTag: "Education page of this portfolio",
       },
     ]

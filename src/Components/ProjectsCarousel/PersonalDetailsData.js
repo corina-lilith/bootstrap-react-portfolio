@@ -17,7 +17,6 @@ export const personalDetails = [
     brief: 'Every pole studio has their own names for moves and there is no single source of truth. PoleGuide aims to be a dictionary where students and teachers can reference moves, add their favourites, and discover new ones.',
     feature1: 'Once a user has logged in, they can view the moves which have been sorted into categories.',
     feature2: 'Another feature is that a user can upload images of themselves doing a pole move and by tagging the original image; other users can view both.',
-    link: '',
   },
   {
     projectId: 'tarotReader',
@@ -36,7 +35,7 @@ export const personalDetails = [
     brief: 'I am a visual person so when learning Polish, I wanted some flash cards. I created this website so I could practise both Polish and working with VueJS. Currently, there is no back-end but I have plans on making one to work on my back-end skills',
     feature1: 'Using Illustrator, I drew all the images myself. I wanted something cartoon-like and simple to get the point across.',
     feature2: 'I used VueJS with a Quasar bundler as it was easier to get into but I plan on changing it to MUI React with a SQL database to shore up those skills.',
-    link: 'https://slownik.org/#/',
+    link: 'https://slownik.org',
   },
   {
     projectId: 'portfolio',
@@ -44,7 +43,6 @@ export const personalDetails = [
     techStack: 'Bootstrap React',
     brief: 'Initially created in HTML/CSS for an assignment, I ported all of it over to Bootstrap React to practice my skills.',
     feature1: 'Playing with animation on the About Me page was fun. I knew about onClick events but only used it for Hello World projects and modals. It was interesting to see what else could be achieved.',
-    feature2: '',
-    link: '',
+    link: 'https://corina.life/',
   },
 ]
