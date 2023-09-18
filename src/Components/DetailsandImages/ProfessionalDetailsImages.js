@@ -19,9 +19,9 @@ import bbn10 from '../../Images/ProfessionalProjects/bbn/1_bbn10.png';
 import su1 from '../../Images/ProfessionalProjects/stayup/su1.png';
 import su2 from '../../Images/ProfessionalProjects/stayup/su2.png';
 
-import Slownik1 from '../../Images/PersonalProjects/Slownik/1_home.png';
-import Slownik2 from '../../Images/PersonalProjects/Slownik/2_food.png';
-import Slownik3 from '../../Images/PersonalProjects/Slownik/3_herbs.png';
+import ts1 from '../../Images/ProfessionalProjects/twosheds/ts_1.png';
+import ts2 from '../../Images/ProfessionalProjects/twosheds/ts_2.png';
+import ts3 from '../../Images/ProfessionalProjects/twosheds/ts_3.png';
 
 import Porfolio1 from '../../Images/PersonalProjects/Portfolio/1_home.png';
 import Porfolio2 from '../../Images/PersonalProjects/Portfolio/2_about.png';
@@ -140,19 +140,19 @@ export const professionalImages = [
     projectId: 'twosheds',
     images: [
       {
-        image: Slownik1,
-        description: 'Home page of options to choose from ',
-        altTag: "Home page of options to choose from",
+        image: ts1,
+        description: 'List of classes',
+        altTag: "List of classes",
       },
       {
-        image: Slownik2,
-        description: 'Inside the food category',
-        altTag: "Inside the food category",
+        image: ts2,
+        description: 'Single Class Details',
+        altTag: "Single Class Details",
       },
       {
-        image: Slownik3,
-        description: 'Inside the herbs category',
-        altTag: "Inside the herbs category",
+        image: ts3,
+        description: 'Calendar to make a booking',
+        altTag: "Calendar to make a booking",
       },
     ]
   },
