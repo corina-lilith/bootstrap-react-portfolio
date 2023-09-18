@@ -23,9 +23,11 @@ import ts1 from '../../Images/ProfessionalProjects/twosheds/ts_1.png';
 import ts2 from '../../Images/ProfessionalProjects/twosheds/ts_2.png';
 import ts3 from '../../Images/ProfessionalProjects/twosheds/ts_3.png';
 
-import Porfolio1 from '../../Images/PersonalProjects/Portfolio/1_home.png';
-import Porfolio2 from '../../Images/PersonalProjects/Portfolio/2_about.png';
-import Porfolio3 from '../../Images/PersonalProjects/Portfolio/3_education.png';
+import lush1 from '../../Images/ProfessionalProjects/lush/lush_1.png';
+import lush2 from '../../Images/ProfessionalProjects/lush/lush_2.png';
+
+import pa1 from '../../Images/ProfessionalProjects/poleandaerial/pa_1.png';
+import pa2 from '../../Images/ProfessionalProjects/poleandaerial/pa_2.png';
 
 
 export const professionalImages = [
@@ -160,19 +162,14 @@ export const professionalImages = [
     projectId: 'lush',
     images: [
       {
-        image: Porfolio1,
-        description: 'Home page of this portfolio',
-        altTag: "Home page of this portfolio",
+        image: lush1,
+        description: 'Old Portal designs',
+        altTag: "Old Portal designs",
       },
       {
-        image: Porfolio2,
-        description: 'About page of this portfolio',
-        altTag: "About page of this portfolio",
-      },
-      {
-        image: Porfolio3,
-        description: 'Education page of this portfolio',
-        altTag: "Education page of this portfolio",
+        image: lush2,
+        description: 'New Portal designs',
+        altTag: "New Portal designs",
       },
     ]
   },
@@ -180,19 +177,14 @@ export const professionalImages = [
     projectId: 'poleandaerial',
     images: [
       {
-        image: Porfolio1,
-        description: 'Home page of this portfolio',
-        altTag: "Home page of this portfolio",
+        image: pa1,
+        description: 'Logo request from client',
+        altTag: "Logo request from client",
       },
       {
-        image: Porfolio2,
-        description: 'About page of this portfolio',
-        altTag: "About page of this portfolio",
-      },
-      {
-        image: Porfolio3,
-        description: 'Education page of this portfolio',
-        altTag: "Education page of this portfolio",
+        image: pa2,
+        description: 'Logo complete',
+        altTag: "Logo complete",
       },
     ]
   }
