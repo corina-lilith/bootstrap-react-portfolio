@@ -5,8 +5,6 @@ import wp1 from '../../Images/ProfessionalProjects/litepages/wp_1.png';
 import wp2 from '../../Images/ProfessionalProjects/litepages/wp_2.png';
 import wp3 from '../../Images/ProfessionalProjects/litepages/wp_3.png';
 
-
-
 import bbn1 from '../../Images/ProfessionalProjects/bbn/1_bbn1.png';
 import bbn2 from '../../Images/ProfessionalProjects/bbn/1_bbn2.png';
 import bbn3 from '../../Images/ProfessionalProjects/bbn/1_bbn3.png';
@@ -18,11 +16,8 @@ import bbn8 from '../../Images/ProfessionalProjects/bbn/1_bbn8.png';
 import bbn9 from '../../Images/ProfessionalProjects/bbn/1_bbn9.png';
 import bbn10 from '../../Images/ProfessionalProjects/bbn/1_bbn10.png';
 
-import Tarot1 from '../../Images/PersonalProjects/Tarot/1_options.png';
-import Tarot2 from '../../Images/PersonalProjects/Tarot/2_reading.png';
-import Tarot3 from '../../Images/PersonalProjects/Tarot/3_history.png';
-import Tarot4 from '../../Images/PersonalProjects/Tarot/4_fullMoon.png';
-import Tarot5 from '../../Images/PersonalProjects/Tarot/5_goodbye.png';
+import su1 from '../../Images/ProfessionalProjects/stayup/su1.png';
+import su2 from '../../Images/ProfessionalProjects/stayup/su2.png';
 
 import Slownik1 from '../../Images/PersonalProjects/Slownik/1_home.png';
 import Slownik2 from '../../Images/PersonalProjects/Slownik/2_food.png';
@@ -130,29 +125,14 @@ export const professionalImages = [
     projectId: 'stayupright',
     images: [
       {
-        image: Tarot1,
-        description: 'List of options to choose from',
-        altTag: "Image of options to choose from",
+        image: su1,
+        description: 'Old Portal design',
+        altTag: "Old Portal design",
       },
       {
-        image: Tarot2,
-        description: 'Image of a Tarot reading',
-        altTag: "Image of a Tarot reading",
-      },
-      {
-        image: Tarot3,
-        description: 'User history of readings',
-        altTag: "Image of the user's history of readings",
-      },
-      {
-        image: Tarot4,
-        description: 'Next full moon',
-        altTag: "Image of when the next full moon will occur",
-      },
-      {
-        image: Tarot5,
-        description: 'Exiting the app',
-        altTag: "Image of closing the app",
+        image: su2,
+        description: 'New portal design',
+        altTag: "New portal design",
       },
     ]
   },
