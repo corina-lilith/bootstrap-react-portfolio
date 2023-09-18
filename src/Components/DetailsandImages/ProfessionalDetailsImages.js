@@ -9,12 +9,10 @@ import bbn1 from '../../Images/ProfessionalProjects/bbn/1_bbn1.png';
 import bbn2 from '../../Images/ProfessionalProjects/bbn/1_bbn2.png';
 import bbn3 from '../../Images/ProfessionalProjects/bbn/1_bbn3.png';
 import bbn4 from '../../Images/ProfessionalProjects/bbn/1_bbn4.png';
-import bbn5 from '../../Images/ProfessionalProjects/bbn/1_bbn5.png';
 import bbn6 from '../../Images/ProfessionalProjects/bbn/1_bbn6.png';
 import bbn7 from '../../Images/ProfessionalProjects/bbn/1_bbn7.png';
 import bbn8 from '../../Images/ProfessionalProjects/bbn/1_bbn8.png';
 import bbn9 from '../../Images/ProfessionalProjects/bbn/1_bbn9.png';
-import bbn10 from '../../Images/ProfessionalProjects/bbn/1_bbn10.png';
 
 import su1 from '../../Images/ProfessionalProjects/stayup/su1.png';
 import su2 from '../../Images/ProfessionalProjects/stayup/su2.png';
@@ -92,14 +90,9 @@ export const professionalImages = [
         altTag: "Login screen mock up 4",
       },
       {
-        image: bbn5,
-        description: 'Login screen mock up 5',
-        altTag: "Login screen mock up 5",
-      },
-      {
         image: bbn6,
-        description: 'Login screen mock up 6 = Winner',
-        altTag: "Login screen mock up 6",
+        description: 'Login screen mock up 5 = Winner',
+        altTag: "Login screen mock up 5",
       },
       {
         image: bbn7,
@@ -115,11 +108,6 @@ export const professionalImages = [
         image: bbn9,
         description: 'Finalise bids',
         altTag: "Finalise bids",
-      },
-      {
-        image: bbn10,
-        description: 'Bid has been finalised',
-        altTag: "Bid has been finalised",
       },
     ]
   },

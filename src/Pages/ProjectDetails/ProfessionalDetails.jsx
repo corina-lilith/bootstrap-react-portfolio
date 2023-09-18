@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import DetailsCard from "../../Components/DetailsandImages/DetailsCard";
+import ProDetailsCard from "../../Components/DetailsandImages/ProfessionalDetailsCard";
 import { professionalImages } from "../../Components/DetailsandImages/ProfessionalDetailsImages"; // Import the image data
 
 function ProfessionalDetailsPage() {
@@ -38,7 +38,7 @@ function ProfessionalDetailsPage() {
           </Col>
         </Row>
         <Row style={{ marginTop: "3rem", marginBottom: "3rem" }}>
-          <DetailsCard projectImages={projectImages.images} />{" "}
+          <ProDetailsCard projectImages={projectImages.images} />{" "}
           {/* Pass the project-specific images */}
         </Row>
       </Container>
