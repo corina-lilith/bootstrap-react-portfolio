@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../../Components/MainLayout/Layout";
-import { personalDetails } from "../../Components/ProjectsCarousel/PersonalDetailsData";
+import { personalDetails } from "../../Components/DetailsandImages/PersonalDetailsData";
 import { useParams } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import DetailsCard from "../../Components/ProjectsCarousel/DetailsCard";
-import { personalImages } from "../../Components/ProjectsCarousel/PersonalDetailsImages"; // Import the image data
+import DetailsCard from "../../Components/DetailsandImages/DetailsCard";
+import { personalImages } from "../../Components/DetailsandImages/PersonalDetailsImages"; // Import the image data
 
 function PersonalDetailsPage() {
   const { projectId } = useParams(); // Get the projectId from the URL

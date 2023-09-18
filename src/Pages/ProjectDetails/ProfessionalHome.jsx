@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../Components/MainLayout/Layout";
 import ProjectCarousel from "../../Components/ProjectsCarousel/ProjectCarousel";
-import { professionalList } from "../../Components/ProjectsCarousel/ProfessionalHomeData";
+import { professionalList } from "../../Components/DetailsandImages/ProfessionalHomeData";
 import "../../Components/ProjectsCarousel/CarouselStyles.css";
 
 function ProjectsProfessional() {

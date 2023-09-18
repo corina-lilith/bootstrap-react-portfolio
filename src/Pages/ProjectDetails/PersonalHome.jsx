@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../Components/MainLayout/Layout";
 import ProjectCarousel from "../../Components/ProjectsCarousel/ProjectCarousel";
 
-import { personalList } from "../../Components/ProjectsCarousel/PersonalHomeData";
+import { personalList } from "../../Components/DetailsandImages/PersonalHomeData";
 
 function PersonalProjectsPage() {
   return (
