@@ -1,3 +1,12 @@
+import portal1 from '../../Images/ProfessionalProjects/litepages/portal_1.png';
+import portal2 from '../../Images/ProfessionalProjects/litepages/portal_2.png';
+import portal3 from '../../Images/ProfessionalProjects/litepages/portal_3.png';
+import wp1 from '../../Images/ProfessionalProjects/litepages/wp_1.png';
+import wp2 from '../../Images/ProfessionalProjects/litepages/wp_2.png';
+import wp3 from '../../Images/ProfessionalProjects/litepages/wp_3.png';
+
+
+
 import bbn1 from '../../Images/ProfessionalProjects/bbn/1_bbn1.png';
 import bbn2 from '../../Images/ProfessionalProjects/bbn/1_bbn2.png';
 import bbn3 from '../../Images/ProfessionalProjects/bbn/1_bbn3.png';
@@ -8,13 +17,6 @@ import bbn7 from '../../Images/ProfessionalProjects/bbn/1_bbn7.png';
 import bbn8 from '../../Images/ProfessionalProjects/bbn/1_bbn8.png';
 import bbn9 from '../../Images/ProfessionalProjects/bbn/1_bbn9.png';
 import bbn10 from '../../Images/ProfessionalProjects/bbn/1_bbn10.png';
-
-import PoleGuide1 from '../../Images/PersonalProjects/PoleGuide/1_old_app_designs.png';
-import PoleGuide2 from '../../Images/PersonalProjects/PoleGuide/2_new_app_designs.png';
-import PoleGuide3 from '../../Images/PersonalProjects/PoleGuide/3_avatars.png';
-import PoleGuide4 from '../../Images/PersonalProjects/PoleGuide/4_avatars_costumed.png';
-import PoleGuide5 from '../../Images/PersonalProjects/PoleGuide/5_old_logo.png';
-import PoleGuide6 from '../../Images/PersonalProjects/PoleGuide/6_new_logo.png';
 
 import Tarot1 from '../../Images/PersonalProjects/Tarot/1_options.png';
 import Tarot2 from '../../Images/PersonalProjects/Tarot/2_reading.png';
@@ -34,6 +36,43 @@ import Porfolio3 from '../../Images/PersonalProjects/Portfolio/3_education.png';
 export const professionalImages = [
   {
     projectId: 'litepages',
+    images: [
+      {
+        image: portal1,
+        description: 'Portal Page 1',
+        altTag: "Portal Page 1",
+      },
+      {
+        image: portal2,
+        description: 'Portal Page 2',
+        altTag: "Portal Page 2",
+      },
+      {
+        image: portal3,
+        description: 'Portal Page 3',
+        altTag: "Portal Page 3",
+      },
+      {
+        image: wp1,
+        description: 'WordPress Page 1',
+        altTag: "WordPress Page 1",
+      },
+      {
+        image: wp2,
+        description: 'WordPress Page 2',
+        altTag: "WordPress Page 2",
+      },
+      {
+        image: wp3,
+        description: 'WordPress Page 3',
+        altTag: "WordPress Page 3",
+      },
+
+
+    ]
+  },
+  {
+    projectId: 'bidbarn',
     images: [
       {
         image: bbn1,
@@ -62,63 +101,28 @@ export const professionalImages = [
       },
       {
         image: bbn6,
-        description: 'Login screen mock up 6',
+        description: 'Login screen mock up 6 = Winner',
         altTag: "Login screen mock up 6",
       },
       {
         image: bbn7,
-        description: 'Login screen mock up 7',
-        altTag: "Login screen mock up 7",
+        description: 'Create a bid page',
+        altTag: "Create a bid page",
       },
       {
         image: bbn8,
-        description: 'Login screen mock up 8',
-        altTag: "Login screen mock up 8",
+        description: 'View my bids page',
+        altTag: "View my bids page",
       },
       {
         image: bbn9,
-        description: 'Login screen mock up 9',
-        altTag: "Login screen mock up 9",
+        description: 'Finalise bids',
+        altTag: "Finalise bids",
       },
       {
         image: bbn10,
-        description: 'Login screen mock up 10',
-        altTag: "Login screen mock up 10",
-      },
-    ]
-  },
-  {
-    projectId: 'bidbarn',
-    images: [
-      {
-        image: PoleGuide1,
-        description: 'Old app design',
-        altTag: "Original home page designs",
-      },
-      {
-        image: PoleGuide2,
-        description: 'New app design',
-        altTag: "new home page designs",
-      },
-      {
-        image: PoleGuide3,
-        description: 'Avatars with black outfits',
-        altTag: "Avatars with black outfits",
-      },
-      {
-        image: PoleGuide4,
-        description: 'Avatars with costumes',
-        altTag: "Avatars with costumes",
-      },
-      {
-        image: PoleGuide5,
-        description: 'Old logo',
-        altTag: "Original Logo",
-      },
-      {
-        image: PoleGuide6,
-        description: 'New logo',
-        altTag: "New Logo",
+        description: 'Bid has been finalised',
+        altTag: "Bid has been finalised",
       },
     ]
   },
