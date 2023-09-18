@@ -8,6 +8,7 @@ import Work from './Pages/Work/Work';
 import ProjectsProfessional from './Pages/ProjectDetails/ProfessionalHome';
 import ProjectsPersonal from './Pages/ProjectDetails/PersonalHome';
 import PersonalDetailsPage from './Pages/ProjectDetails/PersonalDetails';
+import ProfessionalDetailsPage from './Pages/ProjectDetails/ProfessionalDetails';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/work" element={<Work />} />
           <Route path="/projects/home" element={<ProjectsHome />} />
           <Route path="/projects/professional" element={<ProjectsProfessional />} />
+          <Route path="/projects/professional/:projectId" element={<ProfessionalDetailsPage />} />
           <Route path="/projects/personal" element={<ProjectsPersonal />} />
           <Route path="/projects/personal/:projectId" element={<PersonalDetailsPage />} />
         </Routes>

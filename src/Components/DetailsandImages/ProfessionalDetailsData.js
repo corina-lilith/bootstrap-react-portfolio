@@ -1,0 +1,52 @@
+export const professionalDetails = [
+  {
+    projectId: 'litepages',
+    title: 'Lite Pages',
+    techStack: 'Illustrator, Pug, HTML, CSS, JS, Vue JS, Nuxt, and WordPress',
+    brief: 'LitePages is an all in one back-end business platform. They take care of everything (marketing, payroll, timesheets, job bookings and many other features) so that tradies and small businesses can do what they do best - the job at hand. I was the front-end engineer and therefore responsible for building & maintaining the interface, including porting the project to the Vue JS framework and actively collaborating with the in-house UI/UX team for future developments.',
+    feature1: 'A tradie registers their business and availabilities for customers to make bookings.',
+    feature2: 'A customer is able to make a booking depending on availability and needs.',
+    link: '',
+  },
+  {
+    projectId: 'bidbarn',
+    title: 'BidBarn',
+    techStack: 'Sketch and Photoshop',
+    brief: 'Client owns a silent auction site where customers can sell their second-hand items to try and get the best deal. The seller adds their own price to the item and customers come in and make bids. The client wanted to streamline the bidding process - from paper forms to an app.',
+    feature1: 'Bidders download the app, enter the information/QR Code scan and submit bids.',
+    feature2: 'Bids are collected at the ned of the week, sending out relevant information to winners and sellers',
+  },
+  {
+    projectId: 'stayupright',
+    title: 'Stay Upright',
+    techStack: 'Sketch/Figma',
+    brief: 'Stay Upright train people how to ride motorbikes. As part of that training, they provide motorcycles to Learners and hire out bikes for Provisional courses. The number of bikes determins how many people they can train. This staff portal manages the large motorcycle fleet located in 6 different locations on the East Coast.',
+    feature1: 'A motorbike requires attention from a mechanic. The user logs in, makes a request with relevant details, and the request is logged with the mechanic; thus setting up their jobs for the day/week.',
+    feature2: 'If a bike is out of service, the system notifies the office staff of bike availability which dictates how many courses they can run.',
+    link: '',
+
+  },
+  {
+    projectId: 'twosheds',
+    title: 'Two Sheds',
+    techStack: 'WordPress',
+    brief: 'A woodworking shed for women and homeschooled kids wanted a website for their students to make bookings.',
+    feature1: 'A student is able to select their class and make a booking',
+    feature2: 'A user can make bookings into the weekend away workshops',
+    link: '',
+  },
+  {
+    projectId: 'lush',
+    title: 'Lush',
+    techStack: 'Photoshop and Sketch',
+    brief: 'Redesign a page for the new staff interface',
+    link: '',
+  },
+  {
+    projectId: 'poleandaerial',
+    title: 'Pole and Aerial UK',
+    techStack: 'Illustrator',
+    brief: 'Create a logo for a pole dancing competition',
+    link: '',
+  },
+]
