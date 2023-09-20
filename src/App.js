@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           {/* index is going to be the default page that's rendered */}
           <Route index element={<Home />} />
-          <Route path="/about" element={<AboutMe />} />
+          <Route path="about" element={<AboutMe />} />
           <Route path="/education" element={<Education />} />
           <Route path="/work" element={<Work />} />
           <Route path="/projects/home" element={<ProjectsHome />} />
