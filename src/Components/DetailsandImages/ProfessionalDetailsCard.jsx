@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 function ProDetailsCard({ projectImages }) {
   return (
     <div>
-      <Row xs={1} md={4} className="g-4">
+      <Row xs={1} md={2} className="g-4">
         {projectImages.map((image, index) => (
           <Card key={index} style={{ textAlign: "center", border: "none" }}>
             <p>{image.description}</p>

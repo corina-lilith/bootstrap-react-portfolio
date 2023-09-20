@@ -46,7 +46,7 @@ export const professionalDetails = [
     projectId: 'poleandaerial',
     title: 'Pole and Aerial UK',
     techStack: 'Illustrator',
-    brief: 'Create a logo for a pole dancing competition',
+    brief: 'I wanted to expand my graphic design skills and saw a post on social media that some one was looking for a logo. This one I did for free because I did not have a lot of experience. I was tasked with creating a logo for a pole dancing competition',
     link: '',
   },
 ]
