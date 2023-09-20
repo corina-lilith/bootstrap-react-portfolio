@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import AboutMe from './Pages/About/AboutMe';
 import Education from './Pages/Education/Education';
@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           {/* index is going to be the default page that's rendered */}
           <Route index element={<Home />} />
-          <Link path="/about" element={<AboutMe />} />
+          <Route path="/about" element={<AboutMe />} />
           <Route path="/education" element={<Education />} />
           <Route path="/work" element={<Work />} />
           <Route path="/projects/home" element={<ProjectsHome />} />
