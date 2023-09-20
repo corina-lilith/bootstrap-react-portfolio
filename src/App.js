@@ -10,7 +10,6 @@ import ProjectsPersonal from './Pages/ProjectDetails/PersonalHome';
 import PersonalDetailsPage from './Pages/ProjectDetails/PersonalDetails';
 import ProfessionalDetailsPage from './Pages/ProjectDetails/ProfessionalDetails';
 
-
 const App = () => {
 
   return (
