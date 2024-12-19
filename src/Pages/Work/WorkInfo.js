@@ -2,18 +2,26 @@ import Divider from '../../Images/icons/divider.png';
 
 export const workList = [
   {
+    id: '6',
+    place: 'Black Sky Aerospace',
+    year: 'September 2024 - Present',
+    title: 'Software Developer',
+    description: 'Worked on a tracking system for custom-made devices and implemented Agile practices for a software development lifecycle. I was also engaged with design work such as redesigning the business website, editing proposals, and UI/UX for the software product.',
+    image: Divider,
+  },
+  {
     id: '5',
     place: 'L3Harris Technologies',
-    year: 'March 2021 - Present',
-    title: 'Scrum Master, Software Engineer, Tester, and Trainer.',
-    description: 'Initially employed as a software engineer to work on state-of-the-art communications systems I was also able to utilise my skills as a software tester. I took on the role of scrum master to a team of eight people and onboarded new employees. I recorded training videos and manuals for the client on how to use our product, ensuring each one met contractual requirements. I volunteered on the We3 Team to promote equality in the workplace. We ran workshops, talks, and events that aimed at supporting women in engineering which then expanded to be more inclusive of all peoples in the workplace.',
+    year: 'March 2021 - September 2024',
+    title: 'Scrum Master, Software Developer, Tester, and Trainer.',
+    description: 'Initially employed as a software developer to work on state-of-the-art communications systems I was also able to utilise my skills as a software tester. I took on the role of scrum master to a team of eight people and onboarded new employees. I recorded training videos and manuals for the client on how to use our product, ensuring each one met contractual requirements. I volunteered on the We3 Team to promote equality in the workplace. We ran workshops, talks, and events that aimed at supporting women in engineering which then expanded to be more inclusive of all peoples in the workplace.',
     image: Divider,
   },
   {
     id: '4',
     place: 'LitePages',
     year: 'March 2020 - February 2021',
-    title: 'Front-End Software Engineer',
+    title: 'Front-End Software developer',
     description: 'Responsible for building & maintaining the front-end for a customer-facing HR & advertising platform, including porting the project to the Vue JS framework, and actively collaborating with the in-house UI/UX team for feature development.',
     image: Divider,
   },
