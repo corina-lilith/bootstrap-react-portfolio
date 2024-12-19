@@ -4,5 +4,5 @@ For one of my assignments for Coder Academy, I had to create a portfolio with pl
 
 npm start to start on localhost
 
-Live website will eventually be corina.life
+Live website: corina.life
 # bootstrap-react-portfolio
